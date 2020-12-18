@@ -1,0 +1,23 @@
+* {
+  font-size: xx-large;
+ } 
+
+ .grid-container{
+   display: grid;
+   grid-gap: 1px;
+   grid-template-columns: 25% 25% 25% 25%;
+   grid-template-rows: 25% 25% 25% 25%;
+ }
+
+ @media only screen and (min-width: 480px){
+   *{
+     background-color: aqua;
+   }
+  
+ }
+
+ @media only screen and (min-width: 768px){
+   *{
+     background-color: burlywood;
+   }
+ }

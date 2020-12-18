@@ -1,0 +1,6 @@
+li > div{
+  color: red;
+  text-align: center;
+  border: 3px solid #111;
+  border-radius: 40px;
+} 
